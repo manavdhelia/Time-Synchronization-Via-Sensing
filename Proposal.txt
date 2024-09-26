@@ -1,0 +1,24 @@
+Motivation: 
+  We chose to work on this project for a couple of different reasons. 
+Both of us were more excited at the prospect of working with hardware, as opposed to a software heavy project. 
+Between the two of us, we have experience working with different microcontrollers, writing firmware for those microcontrollers, abd Bluetooth Low Energy expertise along with other wireless communication protocols. 
+Our machine learning knowledge is a slightly weakpoint, however, we believe that we can develop a time synchronization protocol without implementing any machine learning algorithms.
+
+Design Goals: To do
+Deliverables: To do
+System blocks: See block diagram
+
+Project timeline: Be done with project before due date
+
+References:
+- HAEST: Harvesting Ambient Events to Synchronize Time across Heterogeneous IoT Devices
+- Exploiting Smartphone Peripherals for Precise Time Synchronization
+
+Hardware requirements: ESP32 Things, Raspberry Pi
+Software Requirements: Circuitpython, Arduino C++
+
+
+
+Team member responsibilities:
+Manav: Networking, research, and hardware lead
+Furquaan: Setup, software, and writing lead
