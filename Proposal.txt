@@ -1,4 +1,5 @@
 Motivation: 
+Manav edited
   We chose to work on this project for a couple of different reasons. 
 Both of us were more excited at the prospect of working with hardware, as opposed to a software heavy project. 
 Between the two of us, we have experience working with different microcontrollers, writing firmware for those microcontrollers, abd Bluetooth Low Energy expertise along with other wireless communication protocols. 
