@@ -7,7 +7,10 @@ Our machine learning knowledge is a slightly weakpoint, however, we believe that
 Design Goals: Develop a time sync protocol using timestamped sensor data from two embedded devices.
 The data will be received by a raspberry pi device, and the synchronization protocol will run on the
 raspberry pi device
-Deliverables: To do
+Deliverables:
+- Time Synchronization Protocol implemented between ESP32 Things and Raspberry Pi
+-  Analysis and measurement of the time delay experienced by data packets across a network of two embedded devices
+- Estimation of clock drift between the two devices
 System blocks: See block diagram
 
 Project timeline: Be done with project before due date
