@@ -1,36 +1,37 @@
-Manav Dhelia, Furquaan Syed
-Embedded project
-
 Motivation: 
-  We chose to work on this project for a couple of different reasons. 
-Both of us were more excited at the prospect of working with hardware, as opposed to a software heavy project. 
-Between the two of us, we have experience working with different microcontrollers, writing firmware for those microcontrollers, and Bluetooth Low Energy expertise along with other wireless communication protocols. 
-Our machine learning knowledge is a slightly weakpoint, however, we believe that we can develop a time synchronization protocol without implementing any machine learning algorithms.
+We chose to work on this project for a couple of different reasons. 
+- Both of us were more excited at the prospect of working with hardware, as opposed to a software heavy project. 
+- Between the two of us, we have experience working with different microcontrollers, writing firmware for those microcontrollers, and Bluetooth Low Energy 
+  expertise along with other wireless communication protocols. 
+- While our machine learning expertise is currently a bit of a weak point, we are confident in our ability to learn, improve, and develop a foundational ML model 
+  necessary for time synchronization.
 
-Design Goals: Develop a time sync protocol using timestamped sensor data from two embedded devices.
-The data will be received by a raspberry pi device, and the synchronization protocol will run on the
-raspberry pi device
+Design Goals: 
+Design a time synchronization protocol that leverages timestamped sensor data from two embedded devices. The sensor data will be transmitted to a Raspberry Pi, where the synchronization algorithm will be implemented and executed. The goal of the protocol is to align the timing between the two embedded devices, ensuring that the collected sensor data is synchronized accurately when processed on the Raspberry Pi. This will involve using the timestamps from both devices to adjust for any differences in clock drift, latency, or communication delays, allowing for precise data correlation and analysis.
+
 Deliverables:
 - Time Synchronization Protocol implemented between ESP32 Things and Raspberry Pi
--  Analysis and measurement of the time delay experienced by data packets across a network of two embedded devices
+- Analysis and measurement of the time delay experienced by data packets across a network of two embedded devices
 - Use various device sensors on the ESP for estimation of clock drift between the two devices
-System blocks: See block diagram
+
+System blocks: 
+Block diagram attached as a new file (BlockDiagramMkI.pdf)
+
+Hardware requirements: ESP32 Things, Raspberry Pi, Optical sensor, Audio sensor, IMU sensor, DHT sensor, Pressure sensor.
+Software Requirements: Circuitpython, Arduino C++
+
+Team member responsibilities:
+Manav: Networking, research, and hardware lead
+Furquaan: Setup, software, and writing lead
 
 Project timeline: 
-Week 1-2: Gather and characterize data from sensors 
-Week 3-4: Set up communication protocols between the two devices 
-Week 4-5: Implement synchronization protocol and possibly machine learning model
-Week 6: Characterize time delay
+Week 1-2: Gather hardware and setup the system
+Week 2-4: Set up communication protocols between gateway and edge devices
+Week 4-5: Gather and characterize data from sensors 
+Week 5-7: Implement synchronization protocol and machine learning model for the gateway
+Week 7-8: Characterize time delay and synchronize the edge devices
 
 References:
 - HAEST: Harvesting Ambient Events to Synchronize Time across Heterogeneous IoT Devices
 - Exploiting Smartphone Peripherals for Precise Time Synchronization
 
-Hardware requirements: ESP32 Things, Raspberry Pi, Optical sensor, Audio sensor, IMU sensor, DHT sensor, Pressure sensor.
-Software Requirements: Circuitpython, Arduino C++
-
-
-
-Team member responsibilities:
-Manav: Networking, research, and hardware lead
-Furquaan: Setup, software, and writing lead
