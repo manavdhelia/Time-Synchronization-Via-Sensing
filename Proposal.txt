@@ -13,7 +13,7 @@ raspberry pi device
 Deliverables:
 - Time Synchronization Protocol implemented between ESP32 Things and Raspberry Pi
 -  Analysis and measurement of the time delay experienced by data packets across a network of two embedded devices
-- Estimation of clock drift between the two devices
+- Use various device sensors on the ESP for estimation of clock drift between the two devices
 System blocks: See block diagram
 
 Project timeline: Be done with project before due date
