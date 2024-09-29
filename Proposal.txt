@@ -1,10 +1,12 @@
 Motivation: 
   We chose to work on this project for a couple of different reasons. 
 Both of us were more excited at the prospect of working with hardware, as opposed to a software heavy project. 
-Between the two of us, we have experience working with different microcontrollers, writing firmware for those microcontrollers, abd Bluetooth Low Energy expertise along with other wireless communication protocols. 
+Between the two of us, we have experience working with different microcontrollers, writing firmware for those microcontrollers, and Bluetooth Low Energy expertise along with other wireless communication protocols. 
 Our machine learning knowledge is a slightly weakpoint, however, we believe that we can develop a time synchronization protocol without implementing any machine learning algorithms.
 
-Design Goals: To do
+Design Goals: Develop a time sync protocol using timestamped sensor data from two embedded devices.
+The data will be received by a raspberry pi device, and the synchronization protocol will run on the
+raspberry pi device
 Deliverables: To do
 System blocks: See block diagram
 
@@ -14,7 +16,7 @@ References:
 - HAEST: Harvesting Ambient Events to Synchronize Time across Heterogeneous IoT Devices
 - Exploiting Smartphone Peripherals for Precise Time Synchronization
 
-Hardware requirements: ESP32 Things, Raspberry Pi
+Hardware requirements: ESP32 Things, Raspberry Pi, Optical sensor, Audio sensor, IMU sensor, DHT sensor, Pressure sensor.
 Software Requirements: Circuitpython, Arduino C++
 
 
