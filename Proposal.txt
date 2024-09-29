@@ -1,3 +1,5 @@
+Manav Dhelia, Furquaan Syed
+
 Motivation: 
   We chose to work on this project for a couple of different reasons. 
 Both of us were more excited at the prospect of working with hardware, as opposed to a software heavy project. 
