@@ -1,4 +1,5 @@
 Manav Dhelia, Furquaan Syed
+Embedded project
 
 Motivation: 
   We chose to work on this project for a couple of different reasons. 
