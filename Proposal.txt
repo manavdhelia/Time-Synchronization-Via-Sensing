@@ -16,7 +16,11 @@ Deliverables:
 - Use various device sensors on the ESP for estimation of clock drift between the two devices
 System blocks: See block diagram
 
-Project timeline: Be done with project before due date
+Project timeline: 
+Week 1-2: Set up communication protocols between the two devices 
+Week 3-4: Gather and characterize data from sensors 
+Week 4-5: Implement synchronization protocol and possibly machine learning model
+Week 6: Characterize time delay
 
 References:
 - HAEST: Harvesting Ambient Events to Synchronize Time across Heterogeneous IoT Devices
