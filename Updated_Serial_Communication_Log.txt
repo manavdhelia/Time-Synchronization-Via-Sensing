@@ -1,0 +1,11 @@
+
+[ESP32-1] Event Detected at Light Sensor: Timestamp = 10.120
+[ESP32-1] Event Detected at IMU Sensor: Timestamp = 10.122
+[ESP32-2] Event Detected at Pressure Sensor: Timestamp = 10.125
+[RPI] Received Timestamp from ESP32-1: 10.120
+[RPI] Received Timestamp from ESP32-2: 10.125
+[RPI] Calculated Offset = 0.005 seconds
+[RPI] Sending Offset Correction to ESP32-1: -0.0025 seconds
+[RPI] Sending Offset Correction to ESP32-2: +0.0025 seconds
+[ESP32-1] Time Adjusted. New Timestamp = 10.1175
+[ESP32-2] Time Adjusted. New Timestamp = 10.1275
